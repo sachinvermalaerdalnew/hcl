@@ -15,7 +15,11 @@ export default function LoginPage() {
       body: JSON.stringify({ email, password }),
     });
 
+    const data = await res.json();
+
     if (res.ok) {
+      console.log(data);
+      localStorage.setItem('user', JSON.stringify(data.user));
       router.push("/calculator");
     } else {
       alert("Login failed");
@@ -23,7 +27,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="loginForm">
+    <div className="loginForm" >
       <form onSubmit={handleLogin}>
         <div>
           <input

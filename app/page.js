@@ -25,7 +25,7 @@ export default function Home() {
             <li>Resource</li>
             <li>About Us</li>
             <li>Contact</li>
-            <li><Link href="/register">Login</Link></li>
+            <li><Link href="/login">Login</Link></li>
             <li><Link href="/register">Register</Link></li>
           </ul>
         </nav>

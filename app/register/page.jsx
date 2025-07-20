@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import "../../styles/register.css";
 
 export default function RegisterPage() {
   const [form, setForm] = useState({ name: '', email: '', password: '' });
@@ -23,12 +24,14 @@ export default function RegisterPage() {
 
   return (
     <div>
-      <h2>Register</h2>
+      <h2 className='registerTitle'>Register</h2>
       <form onSubmit={handleSubmit}>
+        <div className='registerForm'>
         <input name="name" type="text" placeholder="Name" onChange={handleChange} required /><br />
         <input name="email" type="email" placeholder="Email" onChange={handleChange} required /><br />
         <input name="password" type="password" placeholder="Password" onChange={handleChange} required /><br />
         <button type="submit">Register</button>
+        </div>
       </form>
       <p>{message}</p>
     </div>

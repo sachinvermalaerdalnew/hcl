@@ -10,12 +10,13 @@ body {
   margin: 0;
 }
 
-.headTitle{
+.headTitle {
   text-align: center;
   font-size: 1em;
   color: white;
   padding-top: 20px;
 }
+
 .menu {
   background-color: #7c7979;
   padding: 10px;
@@ -49,7 +50,7 @@ body {
   width: 100%;
   background-color: #3a3939;
   height: 300px;
-  color: white;  
+  color: white;
 }
 
 .banner {
@@ -58,7 +59,7 @@ body {
   border-radius: 10px;
 }
 
-.titleTopic{
+.titleTopic {
   font-size: 1em;
   margin-top: 20px;
   color: #000;
@@ -78,7 +79,7 @@ body {
   flex: 1 1 300px;
   text-align: left;
   border-radius: 8px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   height: 150px;
 }
@@ -135,13 +136,14 @@ body {
 
 
 b.ox-Content {
-margin: 5px 0 5px 3px;
+  margin: 5px 0 5px 3px;
 }
- .readMore{
- margin: 5px 0 15px 3px;
+
+.readMore {
+  margin: 5px 0 15px 3px;
 }
 
 
-.contentTitle{
+.contentTitle {
   margin-left: 10px;
 }
